@@ -21,13 +21,27 @@
     color: var(--cinza);
 }
 
+.preto{
+    color: var(--preto);
+}
+
 .d-flex{
     display: flex;
+}
+
+.d-flex-evelin{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    max-width: 100%;
 }
 
 .centraliza{
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .imagem-fundo{
@@ -50,4 +64,27 @@
 
 .coluna{
     flex-direction: column;
+}
+
+.titulo{
+    font-size: 100px;
+}
+
+.titulozin{
+    font-size: 80px;
+}
+
+.quadro{
+    width: 160px;
+    height: 200px;
+    background-color: var(--branco);
+    border-radius: 8px;
+}
+
+.back{
+    background-color: var(--branco);
+}
+
+.espaçamento{
+    gap: 30px;
 }
