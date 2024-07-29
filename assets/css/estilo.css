@@ -52,6 +52,11 @@
     justify-content: space-evenly;
 }
 
+.d-flex-bet{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .centraliza{
     align-items: center;
@@ -100,16 +105,25 @@
 
 /* CABEÇALHO */
 
+.cabecalho{
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    height: 120px;
+}
+
 .icone2{
     width: 50px;
     height: 50px;
 }
 
-.icone2 :hover{
-    width: 50px;
-    height: 50px;
-    background-color: #3081B2;
+.fundo-cabecalho{
+    width: 80px;
+    height: 70px;
 }
+
 
 
 /* QUADRO DE MUSICAS */
