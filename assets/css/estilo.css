@@ -41,6 +41,10 @@
     background-color: var(--preto);
 }
 
+.b-cinza-escuro{
+    background-color: var(--cinza-escuro);
+}
+
 
 
 .d-flex{
@@ -111,7 +115,8 @@
 }
 
 .logo{
-    height: 120px;
+    height: 100px;
+    margin-top: 10px;
 }
 
 .icone2{
@@ -122,6 +127,44 @@
 .fundo-cabecalho{
     width: 80px;
     height: 70px;
+}
+
+.barra-pesquisa{
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    background-color: var(--cinza-claro);
+    border-radius: 30px;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.lupa{
+    width: 25px;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.pisca-pisca{
+    color: var(--cinza-texto);
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: -30px;
+
+    animation-name: pisca;
+    animation-duration: 0,5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pisca {
+    from{
+        color:var(--cinza-texto)
+    }
+
+    to{
+        color: transparent
+    }
 }
 
 
@@ -246,6 +289,22 @@
     
 }
 
+/*FAÇA AMIGOS*/
+
+.amigos{
+    width: 550px;
+    height: 300px;
+    background-color: var(--cinza-claro);
+    border-radius: 8px;
+}
+
+.foto{
+    width: 200px;
+    height: 260px;
+}
+
+
+
 /* ESPAÇO */
 
 .espaçamento{
@@ -281,8 +340,8 @@
 }
 
 .secundario{
-    width: 285px;
-    height: 150px;
+    width: 275px;
+    height: 144px;
     border-radius: 8px;
 }
 
@@ -290,10 +349,45 @@
     margin-left: 35px;
 }
 
+.margem-grande{
+    margin-left: 634px;
+}
+
+.maregm-bloco-cima{
+    margin-top: -148px;
+}
+
+.margem-bloco-lado{
+    margin-left: 289px;
+}
+
 .margem-cimao{
     margin-top: 40px;
 }
 
+.bloco-principal{
+    position: absolute;
+    width: 560px;
+    height: 290px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.bloco-secundario{
+    position: absolute;
+    width: 275px;
+    height: 144px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.bloco-principal :hover{
+    background-color: #32323861;
+}
+
+.bloco-secundario :hover{
+    background-color: #32323861;
+}
 
   /* comentarios */
 
